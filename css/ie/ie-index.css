@@ -1,0 +1,185 @@
+.form {
+	height: 344px;
+	min-width: 1025px;
+	margin: -18px 0 20px 0;
+	background: url(../../images/sky.jpg) 0 0 repeat-x;
+	background-size: 100% 100%;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+	-o-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+}
+	.form .title-level-1 {
+		text-align: center;
+		padding: 20px 0 7px 0;
+	}
+	.form-width {
+		width: 927px;
+		margin: 0 auto;
+	}
+	.form-width label {
+		display: inline-block;
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+		.input-left, .input-right {
+			position: relative;
+			width: 445px;
+		}
+		.input-left {float: left;}
+		.input-right {float: right;}
+			.input_index {
+				font: normal 23px 'GillSansCRegular';
+				padding: 10px 55px 10px 10px;
+			}
+			.city-code {
+				position: absolute;
+				right: 5px;
+				top: 41px;
+				text-transform: uppercase;
+				color: #c7c7c7;
+				font-size: 14px;
+			}
+			.input-wrapper a {
+				display: inline-block;
+				color: #000;
+				text-decoration: none;
+				border-bottom: 1px dotted #6d6d6d;
+				font-size: 14px;
+				margin-right: 5px;
+			}	
+			.date-wrapper {
+				overflow: hidden;
+				margin-top: 20px;
+			}
+				.date-wrapper__1,
+				.date-wrapper__2 {
+					float: left;
+					width: 133px;
+					position: relative;
+				}
+				.date-wrapper__1 {margin-right: 13px;}
+				.date-wrapper__3 {
+					float: right;
+					margin: 12px 45px 0 0;
+				}
+					.date-wrapper__2 label {
+						display: inline-block;
+						width: 144px;
+					}
+					.date-wrapper__3 label {font-size: 12px}
+			.select-list_index {margin-top: 24px;}
+				.select-index-1 {right: 229px;}
+				.select-index-2 {right: 153px;}
+				.select-index-3 {right: 76px;}
+				.select-index-4 {right: 0;}
+
+			.search_index {
+				height: 44px;
+				width: 207px;
+				margin: 27px auto 4px auto;
+				background: #ffdb40; /* Old browsers */
+				background: -moz-linear-gradient(top, #ffdb40 0%, #ffc116 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffdb40), color-stop(100%,#ffc116)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #ffdb40 0%,#ffc116 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #ffdb40 0%,#ffc116 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #ffdb40 0%,#ffc116 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #ffdb40 0%,#ffc116 100%); /* W3C */
+			}
+			.submit_index {
+				color: #000;
+				font: normal 32px 'GillSansCRegular';
+				padding-left: 50px;
+			}
+			.search-arrow_index {
+				left: 144px;
+				margin-top: -6px;
+			}
+	.content-index {
+		padding-bottom: 70px;
+		width: 1025px;
+		margin: 0 auto;
+		overflow: hidden;
+	}		
+	.content-index img {
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-o-border-radius: 4px;
+		-webkit-border-radius: 4px;}
+	.popular-routes {
+		text-align: center;
+		overflow: hidden;
+		margin: 0 0 60px -6px;
+		font-size: 14px;
+	}
+		.popular-routes li {
+			display: inline-block;
+			width: 245px;
+			margin-left: 6px;
+		}
+		.title-index-2 {
+			margin-bottom: 19px;
+			text-align: center;
+			font: normal 32px 'GillSansCRegular';
+		}
+		.title-index-3 {
+			font: normal 23px 'GillSansCRegular';
+		}
+		.popular-routes img {
+			display: block;
+			margin-bottom: 9px;	
+		}
+
+	.propose {
+		overflow: hidden;
+		font-size: 14px;
+		margin-bottom: 58px;
+	}
+		.propose li {
+			padding: 0 0 0 33px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.propose__price {
+			width: 230px;
+			background: url(../../images/icon1.png) 15px 4px no-repeat;
+		}
+		.propose__pays {
+			width: 350px;
+			background: url(../../images/icon2.png) 5px 4px no-repeat;
+		}
+		.propose__quickly {
+			width: 315px;
+			background: url(../../images/icon3.png) 4px 4px no-repeat;
+		}
+	.tab {
+		overflow: hidden;
+		height: 35px;
+		width: 711px;
+		margin: 0 auto 20px auto;
+	}
+		.tab__item:first-child {margin-left: 0;}
+		.tab__item {
+			display: inline-block;
+			float: left;
+			margin-left: 16px;
+			width: 111px;
+			height: 33px;
+			line-height: 33px;
+			border: 1px solid #d3d3d3;
+			text-align: center;
+			background: #fff;
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-o-border-radius: 3px;
+			-webkit-border-radius: 3px;
+		}
+		.tab__item_width {width: 141px;}
+			.tab__item a {
+				display: block;
+				text-decoration: none;
+			}
+			.tab-active {color: #000;}
+
+	.tab-content {margin-bottom: 45px;}
+	.tab-content p {text-indent: 20px;}

@@ -1,0 +1,797 @@
+@media only screen and (max-width: 480px) {
+	
+body {
+	background: #ececec;
+}
+a {
+	color: #1797AE;
+}
+header {
+	padding: 0 4px 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+	.logo {
+		display: block;
+		width: 174px;
+		height: 88px;
+		background: url(../images/logo.png) 0 0 no-repeat;
+		border: 0 !important;
+		margin: 10px auto;
+	}
+	.header__nav {margin: 20px 0 0 -25px;}
+		.header__nav a {
+			display: block;
+			margin: 0 0 5px 25px;
+		}
+		.header__nav-active {color: #000;}
+	.header__info {
+			position: absolute;
+			right: 10px;
+			top: 120px;
+			width: 50%;
+		}
+			.header__enter {
+				display: block;
+				height: 33px;
+				line-height: 33px;
+				color: #fff;
+				font-size: 14px;
+				text-align: center;
+				text-decoration: none;
+				background: #39ccdb; /* Old browsers */
+				background: -moz-linear-gradient(top, #39ccdb 0%, #099eb8 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#39ccdb), color-stop(100%,#099eb8)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #39ccdb 0%,#099eb8 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #39ccdb 0%,#099eb8 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #39ccdb 0%,#099eb8 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #39ccdb 0%,#099eb8 100%); /* W3C */
+				border-radius: 0 0 5px 5px;
+				-moz-border-radius: 0 0 5px 5px;
+				-o-border-radius: 0 0 5px 5px;
+				-webkit-border-radius: 0 0 5px 5px;
+				box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+				-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+				-o-box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+				-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+			}
+			.vcard_header {
+				height: 38px;
+				margin-top: 11px;
+				padding: 10px 0;
+				text-align: center;
+				background: #ffd225;
+				color: #000;
+				font-size: 14px;
+				border-radius: 5px;
+				-moz-border-radius: 5px;
+				-o-border-radius: 5px;
+				-webkit-border-radius: 5px;
+			}
+				.vcard_header a {
+					display: inline-block;
+					margin-bottom: 5px;
+					text-decoration: none;
+					color: #000;
+					border-bottom: 1px solid #000;
+				}
+				.vcard_header span {display: inline-block;}	
+/* ------------------------------------- //END Header -------------------------------------- */
+
+/* ------------------------------------- Content -------------------------------------- */
+/* ------------------ main content style -------------------- */
+.content {
+	overflow: hidden;
+	padding: 0 4px 10px 4px;
+}
+	.content .title-level-1 {
+		margin: 0 0 32px 0;
+		text-align: center;
+	}
+	.title-level-2 {margin: 0 0 10px 0;}
+	.title-level-2 a {
+		font: normal 32px Arial, sans-serif;
+		text-decoration: none;
+		border-bottom: 2px solid #1797ae;
+	}
+	.content__coll {width: 100%;}
+	.content__coll p {
+		text-indent: 20px;
+		text-align: justify;
+	}
+		.c-img {
+			margin: 0 0 30px 0;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			overflow: hidden;
+		}
+		.c-img img {
+			display: block;
+			width: 100%;
+		}
+		.banner {
+			margin: 0 0 18px 0;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			overflow: hidden;
+		}
+			.banner img {
+				display: block;
+				width: 100%;
+			}
+		.title-level-2 {text-align: left;}	
+		.content__coll p {
+			margin: 0 0 30px 0;
+			line-height: 24px;
+		}
+
+/* ------------------ //END main content style -------------------- */
+
+	/* list-coll style */
+	.list-coll {
+		padding: 22px 0 0 0;
+		overflow: hidden;
+	}
+	.list-coll_m {padding: 10px 0 0 0;}
+		.list-coll__title {padding-bottom: 27px;}
+		.list-coll ul {
+			overflow: hidden;
+			font-size: 14px;
+		}
+		.list-coll ul li {
+			display: inline-block;
+			margin-left: 2px;
+			padding: 0 2px;
+			border: 1px solid #ccc;
+			margin-bottom: 2px;
+		}
+	/* airlines */
+	.airlines {
+		padding: 20px 0 0 0;
+	}
+	.airlines__list {overflow: hidden;}
+		.airlines__list li {
+			float: left;
+			font-size: 14px;
+			margin: 0 0 4px 4px;
+		}
+			.airlines__list img {
+				display: block;
+				width: 50%;
+			}
+	/* Rules */
+	.rules {
+		list-style-type: decimal;
+		padding: 0 0 0 23px;
+		margin: -7px 0 0 0;
+	}
+		.rules li {margin: 0 0 11px 0;}
+		.rules__title {
+			font: normal 18px 'GillSansCRegular';
+		}
+			.rules p {
+				margin: 2px 0 0 0;
+				line-height: 24px;
+			}
+			.rules ul {margin: 8px 0 0 0;}
+				.rules ul li:before {content: "—";}
+					.rules ul p {padding: 0 0 0 22px;}
+					.rules__sub-title{
+						font-size: 14px;
+						margin: 0 0 0 5px;
+					}
+/* Popular Routes */
+.pop-routes li {
+	margin: 0 0 20px 0;
+}
+	.pop-routes img {
+		width: 100%;
+		margin:0;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-o-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}
+	.route-title-2 {
+		font: normal 23px Arial, sans-serif;
+		text-align: center;
+		margin: 0 0 4px 0;
+	}
+		.pop-routes__link {
+			text-decoration: none;
+			border-bottom: 1px solid #1797ae;
+		}
+			.pop-routes__link span {
+				display: inline-block;
+				width: 29px;
+				height: 18px;
+				padding: 0 10px;
+				background: url(../images/arrow_2.png) 10px 7px no-repeat;
+			}
+	.routes__list a {font-size: 14px;}
+	/* Special price */
+	.special {position: relative;}
+		.special__price {
+			position: absolute;
+			bottom: 10px;
+			right: 0;
+			width: 40%;
+			height: 20px;
+			line-height: 20px;
+			color: #fff;
+			font-size: 12px;
+			text-align: center;
+			background: #e83e74;
+			background: rgba(232,62,116,0.9);
+		}
+	.special__price_width{bottom: 10px;}			
+	.special__price span {font-size: 18px;}
+	.special-terms {
+		margin: 17px 0;
+		background: #fff;
+	}
+		.special-title {
+			margin: 0 0 12px 0;
+			text-align: center;
+			font: normal 23px 'GillSansCRegular';
+			background: url(../images/label.png) 75% 0 no-repeat;
+		}
+		.special-terms__list {
+			list-style-type: decimal;
+			font-size: 14px;
+			margin: 0 0 0 20px;
+		}
+	/* pagination */
+	.pagin {
+		position: relative;
+		font-size: 14px;
+		margin: 50px 0 0 -8px;
+		text-align: center;
+		height: 28px;
+	}
+		.pagin__page,
+		.pagin__active {
+			display: inline-block;
+			width: 26px;
+			height: 26px;
+			line-height: 26px;
+			margin: 0 0 0 8px
+		}
+		.pagin__page:hover {
+			color: #000;
+			text-decoration: none;
+		}
+		.pagin__active {
+			background: #3fb3c9;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			-webkit-border-radius: 5px; 
+			color: #fff;
+		}
+		.pagin__prev {
+			position: absolute;
+			left: 8px;
+			width: 120px;
+			padding-left: 5px;
+			background: url(../images/prev.png) 0 0 no-repeat;
+		}
+		.pagin__next {
+			position: absolute;
+			right: 0;
+			width: 120px;
+			padding-right: 5px;
+			background: url(../images/next.png) 100% 0 no-repeat;
+		}
+	/* like */
+	.tags {
+		display: none;
+		position: relative;
+		height: 53px;
+		padding: 0 10px;
+		border: 1px solid #d3d3d3;
+		border-radius: 7px;
+		-moz-border-radius: 7px;
+		-o-border-radius: 7px;
+		-webkit-border-radius: 7px;
+		font-size: 14px;
+	}
+		.tags p {text-indent: 0;}
+		.tags__date {line-height: 53px !important;}
+		.tags__like {height: 24px;}
+		.tags__like img {width: 100%;}
+aside p {line-height: 19px;}
+/* meta block */
+.meta {
+	margin: 0 0 20px 0;
+}
+/* Tickets form */
+.tickets {
+	padding: 22px 0;
+	margin-bottom: 17px;
+	background: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	.form-title{
+		display: block;
+		margin: 0 0 10px 0;
+		font: normal 23px 'GillSansCRegular';
+		height: 23px;
+		line-height: 17px;
+		text-align: center;
+	}
+	.input {
+		background: #f3f3f3;
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;  
+		border: 0;
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+		-moz-box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+		-o-box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+		-webkit-box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+	}
+	.input_big {
+		margin-bottom: 11px;
+		font: normal 14px 'GillSansCRegular';
+		padding: 5px;
+	}
+	.input_date {
+		padding: 5px 25px 5px 5px;
+		font: normal 14px Arial, sans-serif;
+	}
+	/* tickets date */
+	.tickets__date {
+		overflow: hidden;
+	}
+		.tickets__right, 
+		.tickets__left {
+			position: relative;
+			width: 48%;
+		}
+		.tickets__right {float: right;}
+		.tickets__left {
+			float: left;
+			margin-top: 17px;
+		}
+			.tickets__date .calendar {
+				position: absolute;
+				right: 5px;
+				width: 18px;
+				height: 17px;
+				background: #F3F3F3 url(../images/calendar.gif) 0 0 no-repeat;
+				cursor: pointer;
+			}
+			.tickets__right .calendar {top: 40px;}
+			.tickets__left .calendar {top: 22px;}	
+	/* tickets select */
+	.select-list {
+		position: relative;
+		height: 100px;
+		margin: 19px 0 0 0;
+	}
+		.select {
+			position: absolute;
+			height: 51px;
+			font: normal 12px Arial, sans-serif;
+		}
+		.select_small {width: 61px;}
+		.select_big {width: 91px;}
+		.select_1 {left: 0;}
+		.select_2 {left: 77px;}
+		.select_3 {left: 155px;}
+		.select_4 {
+			left: 50%;
+			top: 56px;
+			margin-left: -45px;
+		}
+			.select span {
+				position: absolute;
+				top: 23px;
+				left: 0;
+				display: block;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box; 
+				height: 26px;
+				width: 100%;
+				color: #fff;
+				line-height: 26px;
+				padding: 0 0 0 15px;
+				border: 1px solid #a7a7a7;
+				background: #fff url(../images/select.png)  100% 0 no-repeat;
+				border-radius: 6px 6px 6px 6px;
+				-moz-border-radius: 6px 6px 6px 6px;
+				-o-border-radius: 6px 6px 6px 6px;
+				-webkit-border-radius: 6px 6px 6px 6px;
+				box-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+				-moz-box-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+				-o-box-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+				-webkit-box-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+			}
+			.select_small span {}
+			.select select {
+				position: absolute;
+				top: 23px;
+				left: 0;
+				height: 28px;
+				width: 100%;
+				opacity: 0;
+			}
+	/* tickets search button */
+	.search {
+		position: relative; 
+		margin: 0 auto;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+		-moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+		-o-box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+		-webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+	}
+		.submit {
+			position: absolute;
+			width: 100%;
+			height:100%;
+			border: 0;
+			background: 0;
+			text-align: left;
+		}
+		.search-arrow {
+			position: absolute;
+			top: 50%;
+			width: 16px;
+			height: 16px;
+			background: url(../images/submit.png) 0 0 no-repeat;
+		}
+
+	.search_sidebar {
+		width: 169px;
+		height: 38px;
+		margin-top: 30px;
+		background: #5cc3d4; /* Old browsers */
+		background: -moz-linear-gradient(top, #5cc3d4 0%, #299bb5 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5cc3d4), color-stop(100%,#299bb5)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #5cc3d4 0%,#299bb5 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #5cc3d4 0%,#299bb5 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #5cc3d4 0%,#299bb5 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #5cc3d4 0%,#299bb5 100%); /* W3C */
+	}
+		.submit_sidebar {
+			color: #fff;
+			font: normal 23px 'GillSansCRegular';
+			padding-left: 40px;
+		}
+		.search-arrow_sidebar {
+			left: 113px;
+			margin-top: -8px;
+		}
+	.tickets__right,
+	.tickets__left {
+		position: relative;
+	}
+		.calendar {
+			position: absolute;
+			right: 5px;
+			top: 30px;
+			width: 18px;
+			height: 17px;
+			background: #f3f3f3 url(../images/calendar.gif) 0 0 no-repeat;
+			cursor: pointer;
+		}
+/* Map */
+.map {
+	overflow: hidden;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	.map iframe {
+		width: 100% !important;
+	}
+/* flights cities */
+.flight {
+	overflow: hidden;
+	margin: -9px 0 29px 0;
+}
+	.flight li {
+		float: left;
+		padding-right: 44px;
+		background: url(../images/arrow.png) 90% 15% no-repeat;
+	}
+	.flight li:last-child {
+		float: left !important;
+		margin: 0;
+		padding: 0;
+		background: 0;
+	}
+		.flight__city {
+			display: block;
+			font: normal 23px 'GillSansCRegular';
+		}
+		.flight__airport {
+			display: inline-block;
+			width: 140px;
+			font: normal 14px Arial, sans-serif;
+		}
+/* list */
+.list {
+		font-size: 14px;
+		overflow: hidden;
+	}
+
+	.list__item {
+		margin: 0 0 30px 0;
+	}
+		.list-title-2 {
+			font: normal 18px Arial, sans-serif;
+			text-align: center;
+		}
+		.list .list-title-2 {margin-top: 4px;}
+		.list__photo {
+			display: block;
+			overflow: hidden;
+			text-align: center;
+			overflow: hidden;
+		}
+		.list__photo img { 
+			display: inline-block;
+			width: 100%;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			margin: 0;
+		}
+			.list__photo_circle img {
+				border-radius: 218px;
+				-moz-border-radius: 218px;
+				-o-border-radius: 218px;
+				-webkit-border-radius: 218px;
+				margin: 0;
+			} 
+/* list news  */
+.list__item_news .list-title-2 {margin: 4px 0 10px 0;}
+.list__item_news p {line-height: 19px;}
+.back-to-news {
+	font-size: 14px;
+	margin-top: 27px;
+}
+/* ------------------------------------- //END Content ------------------------------------- */
+/* ------------------------------------- Index page ---------------------------------------- */
+.form {
+	padding: 0 5px 20px;
+	margin: -18px 0 20px 0;
+	background: url(../images/sky.jpg) 0 0 repeat-x;
+	background-size: 100% 100%;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+	-o-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+}
+	.form .title-level-1 {
+		text-align: center;
+		padding-top: 18px;
+	}
+	.form-width label {font-size: 14px;}
+		.input-left, .input-right {position: relative;}
+			.input_index {
+				width: 100%;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box; 
+				padding: 5px;
+			}
+			.city-code {
+				position: absolute;
+				right: 5px;
+				top: 20px;
+				text-transform: uppercase;
+				color: #ccc;
+				font-size: 14px;
+			}
+			.input-wrapper a {
+				display: inline-block;
+				color: #000;
+				text-decoration: none;
+				border-bottom: 1px dotted #6d6d6d;
+				font-size: 14px;
+				margin-right: 5px;
+			}	
+			.date-wrapper {
+				overflow: hidden;
+				margin-top: 20px;
+			}
+				.date-wrapper__1,
+				.date-wrapper__2 {
+					float: left;
+					width: 45%;
+					position: relative;
+				}
+				.date-wrapper__2 {float: right;}
+				.date-wrapper__1 {
+					margin-top: 17px;
+				}
+				.date-wrapper__3 {
+					clear: both;
+					margin: 12px 0 0 0;
+				}
+					.date-wrapper__1 .calendar {top: 21px;}
+					.date-wrapper__2 .calendar {top: 39px;}
+					.date-wrapper__3 label {font-size: 12px}
+			.select-list_index {margin-top: 24px;}
+				.select-index-1 {
+					left: 50%;
+					margin-left: -45px;
+					top: 60px
+				}
+				.select-index-2 {left: 0;}
+				.select-index-3 {
+					left: 50%;
+					margin-left: -30px;
+				}
+				.select-index-4 {right: 0;}
+
+			.search_index {
+				height: 44px;
+				width: 207px;
+				margin: 37px auto 4px auto;
+				background: #ffdb40; /* Old browsers */
+				background: -moz-linear-gradient(top, #ffdb40 0%, #ffc116 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffdb40), color-stop(100%,#ffc116)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #ffdb40 0%,#ffc116 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #ffdb40 0%,#ffc116 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #ffdb40 0%,#ffc116 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #ffdb40 0%,#ffc116 100%); /* W3C */
+			}
+			.submit_index {
+				color: #000;
+				font: normal 32px 'GillSansCRegular';
+				padding-left: 50px;
+			}
+			.search-arrow_index {
+				left: 144px;
+				margin-top: -6px;
+			}
+	.popular-routes {
+		text-align: center;
+		overflow: hidden;
+		margin: 0 0 15px -6px;
+		font-size: 14px;
+	}
+		.popular-routes li {
+			margin: 0 0 25px 6px;
+		}
+		.title-index-2 {
+			margin-bottom: 19px;
+			text-align: center;
+			font: normal 32px 'GillSansCRegular';
+		}
+		.title-index-3 {
+			font: normal 23px 'GillSansCRegular';
+		}
+		.popular-routes img {
+			display: block;
+			margin-bottom: 9px;	
+			width: 100%;
+		}
+
+	.propose {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+		.propose li {
+			padding: 0 0 15px 33px;
+		}
+		.propose__price {
+			background: url(../images/icon1.png) 15px 4px no-repeat;
+		}
+		.propose__pays {
+			background: url(../images/icon2.png) 5px 4px no-repeat;
+		}
+		.propose__quickly {
+			background: url(../images/icon3.png) 4px 4px no-repeat;
+		}
+	.tab {padding-bottom: 20px;}
+		.tab__item {
+			display: block;
+			width: 100%;
+			border: 1px solid #d3d3d3;
+			margin-bottom: 4px;
+			text-align: center;
+			background: #fff;
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-o-border-radius: 3px;
+			-webkit-border-radius: 3px;
+		}
+			.tab__item a {
+				display: block;
+				height: 26px;
+				padding-top: 7px;
+			}
+			.tab-active {color: #000;}
+
+	.tab-content {margin-bottom: 45px;}
+	.tab-content p {text-indent: 20px;}
+/* ------------------------------------- //END Index page ---------------------------------- */
+/* ------------------------------------- Footer -------------------------------------------- */
+	.footer {
+		position: relative;
+		text-align: left;
+		padding: 10px 4px 0 4px;
+		border-top: 1px solid #ccc;
+	}
+		.footer__iata {
+			display: block;
+			height: 46px;
+			width: 45px;
+			margin-top: 5px;
+			background: url(../images/icons.png) 0 0 no-repeat;
+		}
+		.footer__nav {
+			margin: 5px 0 0 -5px;
+		}
+			.footer__nav a {
+				display: inline-block;
+				margin: 0 5px;
+			}
+
+		/* pay methods */
+		.footer__pays {
+			overflow: hidden;
+			display: none;
+		}
+			.footer__pays li {
+				float: left;
+				display: inline-block;
+			}
+				.footer__pays a {
+					display: block;
+					width: 45px;
+					height: 46px;
+					background: url(../images/icons.png) 0 0 no-repeat;
+				}
+				.footer__visa {background-position: -49px 0 !important;}
+				.footer__master {background-position:  -100px !important;}
+				.footer__qiwi {background-position: -152px 0 !important;}
+				.footer__sber {background-position:  -203px !important;}
+				.footer__ya {background-position:  -254px !important;}
+				.footer__wm {background-position:  -305px !important;}
+		.vcard_footer div {margin-bottom: 5px;}
+		/* socials */
+		.footer__soc {
+			overflow: hidden;
+			margin: 5px 0 0 -3px;
+		}
+			.footer__soc li {
+				float: left;
+				display: inline-block;
+				margin-left: 3px;
+			}
+				.footer__soc a {
+					display: block;
+					width: 25px;
+					height: 25px;
+					background: url(../images/soc.png) 0 0 no-repeat;
+					background-size: 101px 24px;
+				}
+					.footer__vk {background-position: -25px 0 !important;}
+					.footer__tw {background-position: -51px 0 !important;}
+					.footer__odn {background-position: -76px 0 !important;}
+/* ------------------------------------- //END Footer --------------------------------------- */
+	
+}

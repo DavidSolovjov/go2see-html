@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'GillSansCRegular';
+    src: url('fonts/gillsansc-webfont-webfont.eot');
+    src: url('fonts/gillsansc-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gillsansc-webfont-webfont.woff') format('woff'),
+         url('fonts/gillsansc-webfont-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* ------------------------------------- Reset css -------------------------------------------- */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5,
+h6, p, blockquote, pre,a, abbr, acronym, address, big,
+cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small,
+strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt,
+dd, ol, ul, li,fieldset, form, label, legend,table, caption,
+tbody, tfoot, thead, tr, th, td,article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav,
+output, ruby, section, summary,time, mark, audio, video { 
+ margin: 0;
+ padding: 0;
+ border: 0;
+ vertical-align: baseline;
+}
+body, html {height: 100%;}
+img,fieldset {border:none;}
+input[type="submit"] {cursor:pointer;}
+textarea {overflow: auto;}
+input, textarea, select,
+h1,h2,h3,h4,h5,h6,a,span {outline: none;}
+ul,ol {list-style-type: none;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section { 
+ display: block;
+}
+/* ------------------------------------- //END Reset css --------------------------------------- */
+
+@media only screen and (min-width: 480px) {
+/* ------------------------------------- Main styles ------------------------------------------- */
+body {
+    min-width: 960px;
+    background: url(../images/body_bg.png) 0 0 repeat;
+    font: normal 18px Arial, sans-serif;
+}
+.title-level-1 {font: normal 41px 'GillSansCRegular';} 
+.title-level-2 {
+	text-align: center;
+	padding-bottom: 6px;
+	font: normal 32px 'GillSansCRegular'
+}
+.title-level-3 {font: normal 23px Arial, sans-serif;}
+.title-level-4 {font: normal 18px Arial, sans-serif;}
+a {color: #1797ae;}
+label {font-size: 14px;}
+.layout {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin-bottom: -141px;
+}
+.l-container {
+	width: 1015px;
+	margin: 0 auto;
+	padding: 0 5px;
+	overflow: hidden;
+}
+.clear {clear: both;}
+/* ------------------------------------- //END Main styles --------------------------------- */
+
+/* ------------------------------------- Header -------------------------------------------- */
+header {
+	height: 100px;
+	min-width: 1025px;
+	padding-top: 12px;
+	margin-bottom: 18px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+}
+	.header {
+		position: relative;
+		width: 1025px;
+		margin: 0 auto;
+	}
+		.logo {
+			display: block;
+			width: 174px;
+			height: 88px;
+			background: url(../images/logo.png) 0 0 no-repeat;
+			border: 0 !important;
+		}
+		.header__nav {
+			position: absolute;
+			top: 42px;
+			left: 223px;
+			margin-left: -25px;
+			overflow: hidden;
+		}
+			.header__nav a {
+				text-decoration: none;
+				display: inline-block;
+				margin-left: 25px;
+				border-bottom: 2px solid #1797ae;
+			}
+			.header__nav-active {
+				border-bottom: none !important;
+				color: #000;
+			}
+		.header__info {
+			position: absolute;
+			right: 26px;
+			top: -12px;
+			width: 177px;
+		}
+			.header__enter {
+				display: block;
+				height: 33px;
+				line-height: 33px;
+				color: #fff;
+				font-size: 14px;
+				text-align: center;
+				text-decoration: none;
+				background: #39ccdb; /* Old browsers */
+				background: -moz-linear-gradient(top, #39ccdb 0%, #099eb8 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#39ccdb), color-stop(100%,#099eb8)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #39ccdb 0%,#099eb8 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #39ccdb 0%,#099eb8 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #39ccdb 0%,#099eb8 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #39ccdb 0%,#099eb8 100%); /* W3C */
+				border-radius: 0 0 5px 5px;
+				-moz-border-radius: 0 0 5px 5px;
+				-o-border-radius: 0 0 5px 5px;
+				-webkit-border-radius: 0 0 5px 5px;
+				box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+				-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+				-o-box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+				-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+			}
+			.vcard_header {
+				height: 38px;
+				margin-top: 11px;
+				padding: 10px 0;
+				text-align: center;
+				background: #ffd225;
+				color: #000;
+				font-size: 14px;
+				border-radius: 5px;
+				-moz-border-radius: 5px;
+				-o-border-radius: 5px;
+				-webkit-border-radius: 5px;
+			}
+				.vcard_header a {
+					display: inline-block;
+					margin-bottom: 5px;
+					text-decoration: none;
+					color: #000;
+					border-bottom: 1px solid #000;
+				}
+				.vcard_header span {display: inline-block;}	
+/* ------------------------------------- //END Header -------------------------------------- */
+
+/* ------------------------------------- Footer -------------------------------------------- */
+/* push footer to the bottom */
+.push {height: 141px;}
+footer, .push {clear: both;}
+
+footer {
+	min-width: 1025px;
+	padding: 34px 0 32px 0;
+	font-size: 14px;
+	box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+	-o-box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+	height: 75px;
+}
+	.footer {
+		position: relative;
+		width: 1025px;
+		margin: 0 auto;
+
+	}
+		.footer__iata {
+			display: block;
+			height: 46px;
+			width: 45px;
+			margin-top: 13px;
+			background: url(../images/icons.png) 0 0 no-repeat;
+		}
+		.footer__nav {
+			position: absolute;
+			top: 0;
+			left: 263px;
+			margin-left: -13px;
+		}
+			.footer__nav a {margin: 0 13px;}
+		/* pay methods */
+		.footer__pays {
+			position: absolute;
+			top: 28px;
+			left: 263px;
+			overflow: hidden;
+			margin-left: -7px;
+		}
+			.footer__pays li {
+				float: left;
+				display: inline-block;
+				margin-left: 7px;
+			}
+				.footer__pays a {
+					display: block;
+					width: 45px;
+					height: 46px;
+					background: url(../images/icons.png) 0 0 no-repeat;
+				}
+				.footer__visa {background-position: -49px 0 !important;}
+				.footer__master {background-position:  -100px !important;}
+				.footer__qiwi {background-position: -152px 0 !important;}
+				.footer__sber {background-position:  -203px !important;}
+				.footer__ya {background-position:  -254px !important;}
+				.footer__wm {background-position:  -305px !important;}
+		/* hot line */
+		.vcard_footer {
+			position: absolute;
+			right: 20px;
+			top: 0;
+			text-align: right;
+		}
+			/* email */
+			.vcard_footer div {margin-bottom: 5px;}
+		/* socials */
+		.footer__soc {
+			position: absolute;
+			top: 46px;
+			right: 20px;
+			overflow: hidden;
+			margin-left: -3px;
+		}
+			.footer__soc li {
+				float: left;
+				display: inline-block;
+				margin-left: 3px;
+			}
+				.footer__soc a {
+					display: block;
+					width: 25px;
+					height: 25px;
+					background: url(../images/soc.png) 0 0 no-repeat;
+				}
+					.footer__vk {background-position: -25px 0 !important;}
+					.footer__tw {background-position: -51px 0 !important;}
+					.footer__odn {background-position: -76px 0 !important;}
+
+
+/* ------------------------------------- //END Footer --------------------------------------- */
+
+}

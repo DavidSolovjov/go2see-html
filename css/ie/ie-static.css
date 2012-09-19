@@ -1,0 +1,538 @@
+/* ------------------------------------- Content -------------------------------------- */
+/* ------------------ main content style -------------------- */
+.content {
+	width: 1025px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 72px;
+}
+	.content .title-level-1 {
+		margin: 0 0 32px 0;
+		text-align: center;
+	}
+	.content-coll 
+	.title-level-2 {margin: 0 0 10px 0;}
+	.title-level-2 a {
+		font: normal 32px Arial, sans-serif;
+		text-decoration: none;
+		border-bottom: 2px solid #1797ae;
+	}
+	.content__coll p {text-indent: 20px;}
+	.content__coll {
+		width: 545px;
+		float: left;
+		overflow: hidden;
+	}
+		.c-img {
+			margin: 0 0 30px 0;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			overflow: hidden;
+		}
+			.c-img img {display: block;}
+		.banner {
+			margin: 0 0 18px 0;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			overflow: hidden;
+		}
+			.banner img {display: block;}
+		.content__coll_small {width: 403px;}
+		.content__coll_page {width: 745px;}
+		.content__coll_small 
+		.title-level-2 {text-align: left;}	
+		.content__coll p {
+			margin: 0 0 30px 0;
+			line-height: 24px;
+		}
+		.content__coll_small .c-img {margin: 0 0 10px 0;}
+
+/* ------------------ //END main content style -------------------- */
+
+	/* list-coll style */
+	.list-coll {
+		padding: 22px 0 0 0;
+		overflow: hidden;
+	}
+	.list-coll_m {padding: 10px 0 0 0;}
+		.list-coll__title {padding-bottom: 27px;}
+		.list-coll ul {
+			float: left;
+			overflow: hidden;
+			font-size: 14px;
+		}
+		.list-coll__country {width: 169px;}
+		.list-coll__city {width: 140px;}
+		.list-coll__route {width: 253px;}
+	/* airlines */
+	.airlines {
+		padding: 20px 0 0 0;
+		overflow: hidden;
+	}
+		.airlines__list {
+			overflow: hidden;
+			margin: -40px 0 0 -40px;
+			font-size: 14px;
+		}
+			.airlines__list li {
+				display: inline-block;
+				margin: 40px 0 0 40px;
+			}
+				.airlines__list img {
+					display: block;
+					margin: 0 0 7px 0;
+				}
+	/* Rules */
+	.rules {
+		list-style-type: decimal;
+		padding: 0 0 0 23px;
+		margin: -7px 0 0 0;
+	}
+		.rules li {margin: 0 0 11px 0;}
+		.rules__title {
+			font: normal 23px 'GillSansCRegular';
+		}
+			.rules p {
+				margin: 2px 0 0 0;
+				line-height: 24px;
+			}
+			.rules ul {margin: 8px 0 0 0;}
+				.rules ul li:before {content: "—";}
+					.rules ul p {padding: 0 0 0 22px;}
+					.rules__sub-title{
+						font-size: 18px;
+						margin: 0 0 0 5px;
+					}
+	/* Popular Routes */
+	.pop-routes {
+		overflow: hidden;
+		margin: 0 -41px 0 0;
+	}
+		.pop-routes li {
+			float: left;
+			width: 310px;
+			margin: 0 41px 38px 0;
+			min-height: 267px;
+		}
+			.pop-routes img {
+				margin:0;
+				border-radius: 4px;
+				-moz-border-radius: 4px;
+				-o-border-radius: 4px;
+				-webkit-border-radius: 4px;
+			}
+			.route-title-2 {
+				margin: 11px 0 9px 0;
+				font: normal 23px Arial, sans-serif;
+				text-align: center;
+			}
+				.pop-routes__link {
+					text-decoration: none;
+					border-bottom: 2px solid #1797ae;
+				}
+					.pop-routes__link span {
+						display: inline-block;
+						width: 29px;
+						height: 18px;
+						padding: 0 10px;
+						background: url(../../images/arrow_2.png) 10px 7px no-repeat;
+					}
+			.routes__list a {font-size: 14px;}
+	/* Special price */
+	.special {position: relative;}
+		.special__price {
+			position: absolute;
+			bottom: 23px;
+			right: 0;
+			width: 214px;
+			height: 50px;
+			line-height: 50px;
+			color: #fff;
+			font-size: 18px;
+			text-align: center;
+			background: #e83e74;
+			background: rgba(232,62,116,0.9);
+		}
+	.special__price_width{bottom: 36px;}			
+	.special__price span {font-size: 32px;}
+	.special-terms {
+		padding: 18px 25px;
+		margin: 17px 0;
+		background: #fff;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+		.special-title {
+			margin: 0 0 12px 0;
+			text-align: center;
+			font: normal 23px 'GillSansCRegular';
+			background: url(../../images/label.png) 120px 5px no-repeat;
+		}
+		.special-terms__list {
+			list-style-type: decimal;
+			font-size: 14px;
+			margin: 0 0 0 20px;
+		}
+	/* pagination */
+	.pagin {
+		position: relative;
+		font-size: 14px;
+		margin: 50px 0 0 -8px;
+		text-align: center;
+		height: 28px;
+	}
+		.pagin__page,
+		.pagin__active {
+			display: inline-block;
+			width: 26px;
+			height: 26px;
+			line-height: 26px;
+			margin: 0 0 0 8px
+		}
+		.pagin__page:hover {
+			color: #000;
+			text-decoration: none;
+		}
+		.pagin__active {
+			background: #3fb3c9;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			-webkit-border-radius: 5px; 
+			color: #fff;
+		}
+		.pagin__prev {
+			position: absolute;
+			left: 8px;
+			width: 120px;
+			padding-left: 5px;
+			background: url(../../images/prev.png) 0 0 no-repeat;
+		}
+		.pagin__next {
+			position: absolute;
+			right: 0;
+			width: 120px;
+			padding-right: 5px;
+			background: url(../../images/next.png) 100% 0 no-repeat;
+		}
+	/* like */
+	.tags {
+		position: relative;
+		height: 53px;
+		padding: 0 10px;
+		border: 1px solid #d3d3d3;
+		border-radius: 7px;
+		-moz-border-radius: 7px;
+		-o-border-radius: 7px;
+		-webkit-border-radius: 7px;
+		font-size: 14px;
+	}
+		.tags p {text-indent: 0;}
+		.tags__date {line-height: 53px !important;}
+		.tags__like {
+			width: 263px;
+			height: 24px;
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			margin: -12px 0 0 0 ;
+		}
+aside {float: right;}
+.sidebar {width: 425px;}
+.sidebar-list {width: 565px;}
+.sidebar-page {
+	width: 218px;
+	padding: 0 0 30px 0;
+}
+aside p {line-height: 19px;}
+/* meta block */
+.meta {
+	margin: 0 0 20px 0;
+}
+/* Tickets form */
+.tickets {
+	padding: 22px 25px 25px;
+	margin-bottom: 17px;
+	background: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	.form-title{
+		display: block;
+		margin: 0 0 10px 0;
+		font: normal 23px 'GillSansCRegular';
+		height: 23px;
+		line-height: 17px;
+		text-align: center;
+	}
+	.input {
+		display: block;
+		width: 100%;
+		margin: 0;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;  
+		background: #f3f3f3;
+		border: 0;
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+		-moz-box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+		-o-box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+		-webkit-box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+	}
+	.input_big {
+		margin-bottom: 11px;
+		font: normal 23px 'GillSansCRegular';
+		padding: 10px;
+	}
+	.input_date {
+		padding: 6px 25px 6px 10px;
+		font: normal 14px Arial, sans-serif;
+		
+	}
+	.calender {
+		
+	}
+	/* tickets date */
+	.tickets__date {
+		overflow: hidden;
+		height: 55px;
+	}
+		.tickets__left {
+			width: 170px;
+			float: left;
+		}
+		.tickets__right {
+			width: 170px;
+			float: right;
+		}
+		label {font-size: 12px;}
+	/* tickets select */
+	.select-list {
+		position: relative;
+		height: 51px;
+		margin: 22px 0 0 0;
+	}
+		.select {
+			position: absolute;
+			height: 51px;
+			font: normal 12px Arial, sans-serif;
+		}
+		.select_small {width: 61px;}
+		.select_big {width: 91px;}
+		.select_1 {left: 0;}
+		.select_2 {left: 77px;}
+		.select_3 {left: 155px;}
+		.select_4 {right: 0;}
+			.select span {
+				position: absolute;
+				top: 23px;
+				left: 0;
+				display: block;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box; 
+				height: 26px;
+				width: 100%;
+				line-height: 26px;
+				padding: 0 0 0 15px;
+				border: 1px solid #a7a7a7;
+				background: #fff url(../../images/select.png)  100% 0 no-repeat;
+				border-radius: 6px 6px 6px 6px;
+				-moz-border-radius: 6px 6px 6px 6px;
+				-o-border-radius: 6px 6px 6px 6px;
+				-webkit-border-radius: 6px 6px 6px 6px;
+				box-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+				-moz-box-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+				-o-box-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+				-webkit-box-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+			}
+			.select_small span {}
+			.select select {
+				position: absolute;
+				top: 20px;
+				left: 0;
+				height: 28px;
+				width: 100%;
+				opacity: 0;
+			}
+	/* tickets search button */
+	.search {
+		position: relative; 
+		margin: 0 auto;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+		-moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+		-o-box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+		-webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+	}
+		.submit {
+			position: absolute;
+			width: 100%;
+			height:100%;
+			border: 0;
+			background: 0;
+			text-align: left;
+		}
+		.search-arrow {
+			position: absolute;
+			top: 50%;
+			width: 16px;
+			height: 16px;
+			background: url(../../images/submit.png) 0 0 no-repeat;
+		}
+
+	.search_sidebar {
+		width: 169px;
+		height: 38px;
+		margin-top: 30px;
+		background: #5cc3d4; /* Old browsers */
+		background: -moz-linear-gradient(top, #5cc3d4 0%, #299bb5 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5cc3d4), color-stop(100%,#299bb5)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #5cc3d4 0%,#299bb5 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #5cc3d4 0%,#299bb5 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #5cc3d4 0%,#299bb5 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #5cc3d4 0%,#299bb5 100%); /* W3C */
+	}
+		.submit_sidebar {
+			color: #fff;
+			font: normal 23px 'GillSansCRegular';
+			padding-left: 40px;
+		}
+		.search-arrow_sidebar {
+			left: 113px;
+			margin-top: -8px;
+		}
+	.tickets__right,
+	.tickets__left {
+		position: relative;
+	}
+		.calendar {
+			position: absolute;
+			right: 5px;
+			top: 30px;
+			width: 18px;
+			height: 17px;
+			background: #f3f3f3 url(../../images/calendar.gif) 0 0 no-repeat;
+			cursor: pointer;
+		}
+/* Map */
+.map {
+	width: 425px;
+	height:265px;
+	overflow: hidden;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* flights cities */
+.flight {
+	overflow: hidden;
+	margin: -9px 0 29px 0;
+}
+	.flight li {
+		float: left;
+		display: inline-block;
+		padding-left: 44px;
+		margin-left: 12px;
+		background: url(../../images/arrow.png) 0 15% no-repeat;
+	}
+	.flight li:first-child {
+		margin: 0;
+		padding: 0;
+		background: 0;
+	}
+		.flight__city {
+			display: block;
+			font: normal 23px 'GillSansCRegular';
+		}
+		.flight__airport {
+			display: inline-block;
+			width: 140px;
+			font: normal 14px Arial, sans-serif;
+		}
+/* list */
+.list {
+		font-size: 14px;
+		overflow: hidden;
+		margin: -26px 0 0 -26px;
+	}
+
+	.list__item {
+		display: inline-block;
+		vertical-align: top;
+		width: 171px;
+		margin: 26px 0 0 23px;
+	}
+		.list-title-2 {font: normal 18px Arial, sans-serif;}
+		.list .list-title-2 {margin-top: 4px;}
+		.list__photo {
+			display: block;
+			overflow: hidden;
+			text-align: center;
+			overflow: hidden;
+		}
+		.list__photo img { 
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			margin: 0;
+		}
+			.list__photo_circle img {
+				border-radius: 218px;
+				-moz-border-radius: 218px;
+				-o-border-radius: 218px;
+				-webkit-border-radius: 218px;
+				margin: 0;
+			} 
+			.list__photo img {display: inline-block;}
+/* list news  */
+.list_news{
+	overflow: hidden;
+	margin: 0 -46px -39px 0;
+}
+	.list__item_news {
+		display: -moz-inline-stack; /* FF 2 */
+		display: inline-block;
+		width: 218px;
+		margin: 0 43px 39px 0;
+	}
+	.sidebar-page .list__item_news {margin: 0 43px 31px 0;}
+	.list__item_width {
+		width: 482px;
+		margin: 0 44px 39px 0;
+	}
+		.list__item_news .list-title-2 {margin: 4px 0 10px 0;}
+		.list__item_news p {line-height: 19px;}
+.back-to-news {
+	font-size: 14px;
+	margin-top: 27px;
+}
+/* ------------------------------------- //END Content --------------------------------------- */
+/* IE7 hacks */
+*:first-child+html .special__price {bottom: 50px;}
+*:first-child+html .special__price_width {bottom: 70px;}
+*:first-child+html .input {width: 90%;}
+*:first-child+html .input_date {width: 150px;}
+*:first-child+html .date-wrapper .input_date {width: 100px !important;}
+*:first-child+html .select-list span {display: none;}
+*:first-child+html .pop-routes__link span {background-position: 10px 0;}
+*:first-child+html .list__item,
+*:first-child+html .popular-routes li,
+*:first-child+html .propose li,
+*:first-child+html .tab__item {zoom: 1;*display: inline;}

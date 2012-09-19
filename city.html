@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>City</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/master.css" media="screen" />
+	<!--[if lt IE 9]> 
+ 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+ 		<link rel="stylesheet" href="css/ie/ie-master.css" media="screen" />
+	<![endif]-->
+    <script src="js/jquery.tools.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+<div class="layout">
+<!-- ================================== Header ============================================== -->
+<header>
+	<div class="header">
+		<div class=" l-container">
+			<a class="logo" href="#"></a>
+			<nav class="header__nav">
+				<a href="#">Авиакомпании</a>
+				<a href="route.html">Маршруты</a>
+				<a href="countries.html">Страны</a>
+				<a href="city.html">Города</a>
+				<a href="airports.html">Аэропорты</a>
+			</nav>
+		</div>
+	</div>
+</header>	
+<!-- ============================== //END Header ============================================ -->
+
+<!-- ================================= Content ============================================== -->
+<div class="content">
+	<div class="l-container">
+		<h1 class="title-level-1">Амсетрдам</h1>
+		<div class="content__coll">
+			<div class="c-img">
+				<img src="http://placesheen.com/545/214" alt="">
+			</div>
+			<div class="meta">
+			   <div>
+			     <span>Страна:</span>
+			     <a href="#">Голландия</a>
+			   </div>   
+			   <div>
+			     <span>Код IATA:</span>
+			     <a href="#">AMS</a>
+			   </div>
+			   <div>
+			     <span>Аэропорты:</span>
+			     <a href="#">Схипхол</a>,
+			     <a href="#">Оттава Макдоналд-Картье Интернешнл</a>    
+			   </div>
+			</div>
+			<p>Амстердам изрезан системой искусственных каналов, связанных друг с другом 70 островами и 600 мостами. Самые красивые из них Блаубург и Махере-брюг ("Тощий мост"). Всего в городе 102 канала, среди них 4 основных и 9 вспомогательных. Амстердам является одним из 4 великих европейских городов, построенных на воде: Венеция, Санкт-Петербург, Амстердам и Брюгге. Однако по числу каналов, их величине и значению для города, Венеция не идет ни в какое значение с Амстердамом. Это не Амстердам необходимо называть северной Венецией, а Венецию – северным Амстердамом. Амстердам – это город, построенный на воде. На месте будущего города в прошлом были только острова и озера. Чтобы создать твердую почву, жители города построили дамбу, с помощью ветряных мельниц откачали воду, а освободившеся   пространство забросали чем только смогли: бычьими шкурами,камнями, песком, различными отходами, привозной землей. После этого забивали сваи и строили дома. Земля Амстердама, созданная таким образом, – достаточно дорогое удовольствие. Поэтому в центре Амстердама нет широких проспектов. Этот удиви- тельный город часто называют столицей Европы, а иногда и мира.</p>
+		</div>
+		<aside class="sidebar">
+			<!-- Tickets  -->
+			<div class="tickets">
+				<form>
+					<h2 class="form-title">Билеты</h2>
+					<!--  tickets way  -->
+					<label>Откуда</label>
+					<input class="input input_big" type="text">
+					<label>Куда</label>
+					<input class="input input_big" type="text">
+					<!--  //END tickets way  -->
+					<!--  tickets date  -->
+					<div class="tickets__date">
+						<div class="tickets__left">
+							<label>Дата вылета</label>
+							<input class="input input_date" type="text">
+							<span class="calendar"></span>
+						</div>
+						<div class="tickets__right">
+							<label>Дата вылета обратно</label>
+							<input class="input input_date" type="text">
+							<span class="calendar"></span>
+						</div>
+					</div>
+					<input type="checkbox" id="is_one_way"><label for="is_one_way">Перелет в одну сторону</label>
+					<!--  //END tickets ways  -->
+					<!--  tickets select  -->
+					<div class="select-list">
+						<div class="select select_small select_1">
+							<label>Взрослые</label>
+							<span>0</span>
+							<select>
+								<option>0</option>
+								<option>1</option>
+								<option>2</option>
+								<option>...</option>
+							</select>
+						</div>
+						<div class="select select_small select_2">
+							<label>Дети</label>
+							<span>0</span>
+							<select>
+								<option>0</option>
+								<option>1</option>
+								<option>2</option>
+								<option>...</option>
+							</select>
+						</div>
+						<div class="select select_small select_3">
+							<label>Младенцы</label>
+							<span>0</span>
+							<select>
+								<option>0</option>
+								<option>1</option>
+								<option>2</option>
+								<option>...</option>
+							</select>
+						</div>
+						<div class="select select_big select_4">
+							<label>Тариф</label>
+							<span>Тариф1</span>
+							<select>
+								<option>Тариф1</option>
+								<option>Тариф2</option>
+								<option>Тариф3</option>
+							</select>
+						</div>
+					</div>
+					<!--  //END tickets select  -->
+					<div class="search search_sidebar">
+						<span class="search-arrow search-arrow_sidebar"></span>
+						<input class="submit submit_sidebar" type="submit" value="Найти">
+					</div>
+				</form>
+			</div>
+			<!--  //END Tickets  -->
+			<!-- ====================== Map ============================ -->
+			<div class="map">
+			    <iframe width="425" height="265" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.ua/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8&amp;geocode=FXFAbQIdK8KW-yk7CD_TpU_CiTFi_nfhBo8LyA&amp;sll=40.731291,-73.965819&amp;sspn=0.013203,0.033023&amp;hl=uk&amp;mra=mr&amp;ie=UTF8&amp;ll=40.714353,-74.005973&amp;spn=0.59654,0.787025&amp;t=m&amp;output=embed"></iframe><br />
+			</div>
+		<!-- ================= //END Map=========================== -->
+		</aside>
+	</div>
+</div>
+<!-- ================================= //END Content ============================================== -->
+	<div class="push"></div>
+</div>
+<!-- ================================== Footer ============================================== -->
+<footer>
+	<div class="footer">
+		<div class=" l-container">
+			<p>© 2009—2012 Go2See</p>
+			<span class="footer__iata"></span>
+			<nav class="footer__nav">
+				<a href="#">Найти авиабилеты</a>|<a href="#">FAQ</a>|<a href="#">Правила</a>|<a href="#">О компании</a>
+			</nav>
+			<ul class="footer__pays">
+				<li><a href="#" class="footer__visa"></a></li>
+				<li><a href="#" class="footer__master"></a></li>
+				<li><a href="#" class="footer__qiwi"></a></li>
+				<li><a href="#" class="footer__sber"></a></li>
+				<li><a href="#" class="footer__ya"></a></li>
+				<li><a href="#" class="footer__wm"></a></li>
+			</ul>
+			<div class="vcard vcard_footer">
+				<div>
+					<span class="note">Телефон горячей линии:</span> 
+					<span class="tel">8 (800) 3333 833</span>
+				</div>
+				<a class="email" href="mailto:bilet@go2see.ru">bilet@go2see.ru</a>
+			</div>
+			<ul class="footer__soc">
+				<li><a href="#" class="footer__fb"></a></li>
+				<li><a href="#" class="footer__vk"></a></li>
+				<li><a href="#" class="footer__tw"></a></li>
+				<li><a href="#" class="footer__odn"></a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<!-- =============================== //END Footer =========================================== -->
+</body>
+</html>
